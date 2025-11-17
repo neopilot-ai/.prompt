@@ -1,0 +1,7 @@
+import{$ as s,c as e}from"./_astro_assets.C3TYO3Ji.js";import{F as c}from"./utils.B81hyvOl.js";import"./astro/assets-service.CrlEOsaO.js";import"./index.CVpbhN_F.js";const m={title:"Implementors",hide_breadcrumbs:!0};function u(){return[{depth:2,slug:"-under-construction",text:"🚧 Under Construction 🚧"}]}const h=!0;function r(n){const t={h2:"h2",li:"li",ol:"ol",p:"p",...n.components};return e(c,{children:[e(t.p,{children:"Implementing the Prompt spec consists of two primary areas of work:"}),`
+`,e(t.ol,{children:[`
+`,e(t.li,{children:"Implementing the parsing of the Prompt format."}),`
+`,e(t.li,{children:"Translating the Prompt format into an API compatible with one or more generative models."}),`
+`]}),`
+`,e(t.h2,{id:"-under-construction",children:"🚧 Under Construction 🚧"}),`
+`,e(t.p,{children:"This page is under construction, check back soon!"})]})}function i(n={}){const{wrapper:t}=n.components||{};return t?e(t,{...n,children:e(r,{...n})}):r(n)}const g="src/content/docs/implementors.mdx",f="/workspaces/.prompt/docs/src/content/docs/implementors.mdx",o=(n={})=>i({...n,components:{Fragment:c,...n.components,"astro-image":n.components?.img??s}});o[Symbol.for("mdx-component")]=!0;o[Symbol.for("astro.needsHeadRendering")]=!m.layout;o.moduleId="/workspaces/.prompt/docs/src/content/docs/implementors.mdx";export{o as Content,h as __usesAstroImage,o as default,f as file,m as frontmatter,u as getHeadings,g as url};
